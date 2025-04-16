@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: rgb(26, 23, 231);
+    --color-secondary: rgb(43, 30, 78);
+}
+
+body {
+    direction: rtl;
+    width: 100vw;
+    background: #2b283d;
+    font-family: heebo;
+    color: aliceblue;
+    overflow-x: hidden;
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #2b283d;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    direction: ltr;
+    font-family: satisfy;
+    cursor: pointer;
+
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.welcome {
+    background: linear-gradient(to bottom, rgb(26, 23, 231), rgb(43, 30, 78));
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+
+}
+
+.welcome h1 {
+    font-size: 3.5rem;
+}
+
+.welcome h2 {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    text-align: center;
+    width: 60vw;
+
+}
+
+.welcome div {
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome button {
+
+    height: 40px;
+    font-family: heebo;
+    font-weight: bold;
+    width: 280px;
+    background-color: var(--color-primary);
+    font-size: 1rem;
+    padding: 3px 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.project-card {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.project-card img {
+    width: 90vw;
+    height: 65vh;
+    object-fit: cover;
+    box-shadow: 0 10px 80px rgba(0, 0, 0, 0.5);
+}
+
+.lang-logos {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.lang-logos {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: #2b283d;
+    height: 90px;
+    align-items: center;
+}
+
+.lang-logos img {
+    width: 70px;
+    height: 70px;
+    transition: all .6s;
+}
+
+.lang-logos img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: aliceblue;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.cRights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vh;
+    padding: 0 40px;
+    margin-bottom: 0;
+    background-color: var(--color-primary);
+}
+
+
+.footer-logos div {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    align-items: center;
+}
+
+.footer-logos {
+    display: flex;
+    gap: 14%;
+    color: #2b283d;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.footer-logos p {
+    width: 100px;
+}
+
+@media (max-width:670px) {
+
+
+    .welcome {
+        background: linear-gradient(to bottom, rgb(26, 23, 231), rgb(43, 30, 78));
+        height: 50vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 200px 0;
+
+    }
+
+    .welcome h1 {
+        font-size: 3rem;
+    }
+
+    .welcome h2 {
+        font-size: 1rem;
+        margin-top: 20px;
+        text-align: center;
+        width: 60vw;
+
+    }
+
+    .welcome div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome button {
+
+        height: 50px;
+        font-family: heebo;
+        font-weight: bold;
+        width: 45vw;
+        background-color: var(--color-primary);
+        font-size: .82rem;
+        padding: 3px 30px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+    .project-card {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+
+
+    }
+
+    .project-card img {
+        width: 90vw;
+        height: 30vh;
+        object-fit: cover;
+        box-shadow: 0 10px 80px rgba(0, 0, 0, 0.5);
+    }
+
+    .footer-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 100%;
+        justify-items: center;
+        height: 50vh;
+    }
+
+    .cRights {
+        height: 10vh;
+    }
+}

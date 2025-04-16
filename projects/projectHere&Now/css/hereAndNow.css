@@ -1,0 +1,171 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        
+
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100vh;
+                direction: rtl;
+                text-align: center;
+                width: 80vw;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font: normal normal normal 160px/231px Satisfy;
+                color: #FFF;
+                text-align: center;
+                text-shadow: 0px 0px 36px #00000087;
+
+                padding: 0;
+                margin: 0;
+            }
+
+            .details {
+                color: #FFF;
+                font-family: 'Varela Round', sans-serif;
+                text-align: center;
+
+
+            }
+
+            h2 {
+                font-size: 32px;
+
+            }
+
+            p,
+            label {
+                font-size: 16px;
+                color: #FFF;
+                font-family: 'Varela Round', sans-serif;
+                margin-top: 30px;
+            }
+
+            input {
+                width: 30vw;
+                height: 50px;
+                background: #ffffff00;
+                padding: 5px;
+                border: 2px solid #fff;
+            }
+
+            .form-control {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .form-info {
+                width: 100vw;
+                display: flex;
+                text-align: right;
+                justify-content: center;
+                gap: 20px;
+                align-items: end;
+
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                width: 200px;
+                height: 50px;
+                border: none;
+                font-family: 'Varela Round', sans-serif;
+                cursor: pointer;
+            }
+        
+
+        @media (max-width: 670px) {
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 90vh;
+                direction: rtl;
+                text-align: center;
+                width: 90vw;
+                margin: 0 auto;
+            }
+
+            h1 {
+
+                color: #FFF;
+                text-align: center;
+                text-shadow: 0px 0px 36px #00000087;
+                font: normal normal normal 60px/86px Satisfy;
+                padding: 0;
+                margin-bottom: 20px;
+
+            }
+
+            .details {
+                color: #FFF;
+                font-family: 'Varela Round', sans-serif;
+                text-align: center;
+
+
+            }
+
+            h2 {
+                font: normal normal normal 18px/22px Varela Round;
+                margin-bottom: 20px;
+            }
+
+            label {
+                font: normal normal normal 11px/13px Varela Round;
+                color: #F9F9F9;
+            }
+
+            p {
+                font: normal normal normal 16px/20px Varela Round;
+                margin-bottom: 60px;
+            }
+
+            input {
+                width: 80vw;
+                height: 35px;
+                background: #ffffff00;
+                border: 2px solid #fff;
+            }
+
+            .form-control {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .form-info {
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+            }
+
+            button {
+                background-color: #fff;
+                color: #2823FD;
+                width: 80vw;
+                height: 35px;
+                border: none;
+                font-family: 'Varela Round', sans-serif;
+            }
+        }

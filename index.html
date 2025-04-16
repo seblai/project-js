@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Doto:wght@100..900&family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>פורטפוליו - סבסטיאן דהן</title>
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="./script/script.js" defer></script>
+    <style>
+      :root {
+        --color-primary: rgb(26, 23, 231);
+        --color-secondary: rgb(43, 30, 78);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="mainNav">
+        <nav>
+          <ul>
+            <li href="#contact-us"><a href="#top">ראשי</a></li>
+            <li><a href="#about">אודות</a></li>
+            <li><a href="#projects">שירותים</a></li>
+            <li><a href="#contact-me">צור קשר</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="burgerNav">
+        <a href="#" id="burgerNavBTN">&#9776;</a>
+        <nav>
+          <ul>
+            <li href="#contact-us"><a href="#top">ראשי</a></li>
+            <li><a href="#about">אודות</a></li>
+            <li><a href="#projects">שירותים</a></li>
+            <li><a href="#contact-me">צור קשר</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="profile">
+        <img src="images/sebi.jpg" alt="profile-picture" />
+        <a href="index.html" style="font-family: satisfy; font-size: 1.1rem"
+          >Sebastian Dahan</a
+        >
+      </div>
+    </header>
+
+    <section class="welcome">
+      <h1>תיק עבודות אישי</h1>
+      <h2>
+        ברוך הבא לאתר העבודות שלי. שמי סבסטיאן דהן ואני מתמקצע בתחום
+        הFullstack,<br />
+        פה תוכלו לראות את העבודות והפרויקטים שהכנתי.
+      </h2>
+    </section>
+    <div class="lang-logos">
+      <img src="images/index/img-API.png" alt="" />
+      <img src="images/index/img-Bootstrap.png" alt="" />
+      <img src="images/index/img-CSS.png" alt="" />
+      <img src="images/index/img-ES6.png" alt="" />
+      <img src="images/index/img-HTML.png" alt="" />
+      <img src="images/index/img-JS.png" alt="" />
+      <img src="images/index/img-NodeJS.png" alt="" />
+      <img src="images/index/img-OOP.png" alt="" />
+      <img src="images/index/img-React.png" alt="" />
+      <img src="images/index/img-SASS.png" alt="" />
+      <img src="images/index/img-TypeScript.png" alt="" />
+    </div>
+    <section class="about" id="about">
+      <img src="images/sebi.jpg" alt="profile-picture" />
+      <h1>קצת עליי</h1>
+      <p>
+        אני סבסטיאן, אני בן 23 מקיבוץ יטבתה הרחוק שבדרום. אני בונה אתרים ושרתים
+        ונהנה תמיד ללמוד עוד מכל תהליך.
+        <br /><br />
+        אני כאן בשבילכם לתת מענה אנושי ושקוף לכל הצרכים שלכם בעולם הדיגיטל.
+        <br /><br />
+        מצפה לעבוד איתכם ולתת לכם שירות מהיר והוגן שתצאו ממנו מרוצים ואף נרגשים
+        לקראת העבודה שלכם ברשת.
+      </p>
+      <button><a href="resume.txt" download>להורדת קורות חיים</a></button>
+    </section>
+
+    <div style="background-color: rgba(240, 248, 255, 0.945)" id="projects">
+      <h1
+        style="
+          text-align: center;
+          color: var(--color-secondary);
+          padding-top: 40px;
+          font-size: 2.3;
+        "
+      >
+        פרויקטים
+      </h1>
+      <section class="projects">
+        <div class="project-card">
+          <img src="images/index/cards/coffee.png" alt="project-image" />
+
+          <h1>Coffee</h1>
+          <p>דף נחיתה שהכנתי באמצעות HTML & CSS</p>
+
+          <button>
+            <a href="projectPages/projectCoffee.html">לעמוד הפרויקט</a>
+          </button>
+        </div>
+
+        <div class="project-card">
+          <img src="images/index/cards/consult.png" alt="project-image" />
+
+          <h1>Consult</h1>
+          <p>דף נחיתה שהכנתי באמצעות HTML & CSS</p>
+          <button>
+            <a href="projectPages/projectConsult.html">לעמוד הפרויקט</a>
+          </button>
+        </div>
+
+        <div class="project-card">
+          <img src="images/index/cards/discover.png" alt="project-image" />
+
+          <h1>Discover</h1>
+          <p>דף נחיתה שהכנתי באמצעות HTML & CSS</p>
+          <button>
+            <a href="projectPages/projectDiscover.html">לעמוד הפרויקט</a>
+          </button>
+        </div>
+
+        <div class="project-card">
+          <img src="images/index/cards/forward.png" alt="project-image" />
+
+          <h1>Forward</h1>
+          <p>דף נחיתה שהכנתי באמצעות HTML & CSS</p>
+          <button>
+            <a href="projectPages/projectForward.html">לעמוד הפרויקט</a>
+          </button>
+        </div>
+
+        <div class="project-card">
+          <img src="images/index/cards/hereANDnow.png" alt="project-image" />
+
+          <h1>Here & Now</h1>
+          <p>דף נחיתה שהכנתי באמצעות HTML & CSS.</p>
+          <button>
+            <a href="projectPages/projectHereAndNow.html">לעמוד הפרויקט</a>
+          </button>
+        </div>
+
+        <div class="project-card">
+          <img src="images/index/cards/lead.png" alt="project-image" />
+
+          <h1>Lead</h1>
+          <p>דף נחיתה שהכנתי באמצעות HTML & CSS</p>
+          <button>
+            <a href="projectPages/projectLead.html">לעמוד הפרויקט</a>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <section id="projects-js">
+      <div style="background-color: var(--color-secondary)" id="projects">
+        <h1
+          style="
+            text-align: center;
+            color: rgba(240, 248, 255, 0.945);
+            padding-top: 40px;
+            font-size: 2.3;
+          "
+        >
+          פרויקטים ב-JS
+        </h1>
+        <section class="projects">
+          <div class="project-card-js">
+            <a href="jsProjectPages/projectTrivia.html"
+              ><img src="images/jsProjects/trivia.png" alt="project-image" />
+              <h2>Trivia</h2></a
+            >
+          </div>
+          <div class="project-card-js">
+            <a href="jsProjectPages/projectTicTacToe.html"
+              ><img src="images/jsProjects/ticTacToe.png" alt="project-image" />
+              <h2>Tic Tac Toe</h2></a
+            >
+          </div>
+          <div class="project-card-js">
+            <a href="jsProjectPages/projectShoppingCart.html"
+              ><img src="images/jsProjects/shoppingCart.png" alt="project-image" />
+              <h2>Shopping Cart</h2></a
+            >
+          </div>
+          <div class="project-card-js">
+            <a href="jsProjectPages/projectWeather.html"
+              ><img src="images/jsProjects/weather.png" alt="project-image" />
+              <h2>Weather</h2></a
+            >
+          </div>
+          <div class="project-card-js">
+            <a href="jsProjectPages/projectCountries.html"
+              ><img src="images/jsProjects/countries.png" alt="project-image" />
+              <h2>Countries</h2></a
+            >
+          </div>
+          <div class="project-card-js">
+            <a href="jsProjectPages/projectConnect4.html"
+              ><img src="images/jsProjects/connect4.png" alt="project-image" />
+              <h2>Connect 4</h2></a
+            >
+          </div>
+          <div class="project-card-js">
+            <a href="jsProjectPages/projectCalculator.html"
+              ><img src="images/jsProjects/calculator.png" alt="project-image" />
+              <h2>Calculator</h2></a
+            >
+          </div>
+
+        </section>
+      </div>
+    </section>
+    <section id="contact-me">
+      <h1>צור קשר</h1>
+      <h2>
+        צריכים עזרה בשיפוץ או בניית האתר שלכם? <br />
+        תמלאו את הפרטים שלכם בטופס ואחזור אליכם בהקדם.
+      </h2>
+      <form class="forme" onsubmit="return validateForm()">
+        <p style="color: red; " class="form-error form-error-hidden" id="formErrors"></p>
+        <div class="form-control">
+          <label>שם מלא</label>
+          <input id="name" placeholder="שם מלא" type="text" required />
+        </div>
+
+        <div class="form-control">
+          <label>דוא"ל</label>
+          <input id="email" placeholder=" דוא''ל " type="email" required />
+        </div>
+
+        <div class="form-control">
+          <label>טלפון</label>
+          <input id="phone" placeholder="טלפון" type="text" required />
+        </div>
+
+        <div class="form-control">
+          <label>תוכן ההודעה</label>
+          <input
+            id="message"
+            placeholder="תוכן ההודעה"
+            type="text"
+            style="height: 90px"
+            required
+          />
+        </div>
+
+        <input id="submit" type="submit" value="שליחה" />
+      </form>
+    </section>
+    <footer>
+      <div class="footer-logos">
+        <div>
+          <img
+            src="images/index/Icon material-location-on.svg"
+            alt="location-logo"
+          />
+          <p>קיבוץ יטבתה</p>
+        </div>
+        <div>
+          <img
+            src="images/index/Icon awesome-linkedin-in.svg"
+            alt="linkedin-Logo"
+          />
+          <p>#SebiDahan</p>
+        </div>
+        <div>
+          <img
+            src="images/index/Icon awesome-facebook-f.svg"
+            alt="facebook-logo"
+          />
+          <p>#SebiDahan</p>
+        </div>
+        <div>
+          <img src="images/index/Icon simple-email.svg" alt="email-logo" />
+          <p>sebid@gmail.com</p>
+        </div>
+        <div>
+          <img
+            src="images/index/Icon simple-whatsapp.svg"
+            alt="whatsapp-logo"
+          />
+          <p>0549798574</p>
+        </div>
+        <div>
+          <img src="images/Icon simple-whatsapp.svg" alt="phoneNumber-logo" />
+          <p>0549798574</p>
+        </div>
+      </div>
+
+      <div class="cRights">
+        <p>כל הזכויות שמורות לסבסטיאן דהן</p>
+        <p style="direction: ltr">Sebastian Dahan 2025</p>
+      </div>
+    </footer>
+  </body>
+</html>

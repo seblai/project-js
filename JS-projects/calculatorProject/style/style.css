@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  background-color: rgb(95, 92, 92);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#btns {
+  display: flex;
+}
+
+#numbers {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#calcBtns {
+  display: flex;
+  flex-direction: column;
+}
+.btnCss {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: darkgray;
+  cursor: pointer;
+  color: orange;
+  font-size: 2rem;
+  text-align: center;
+  margin: 5px;
+}
+#input {
+  width: 250px;
+  height: 50px;
+  font-size: 1.4rem;
+  background-color: aliceblue;
+  border: 0;
+  margin: 10px;
+}
+h1 {
+  color: orange;
+  margin: 5px;
+}

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+}
+#questionCard {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  text-align: left;
+  background-color: rgb(253, 253, 183);
+  border-radius: 8px;
+  padding: 5px;
+}
+#inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 7px;
+}
+label {
+  font-size: 1.5rem;
+  margin: 7px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 7px;
+}
+h1 {
+  font-size: 3rem;
+  margin: 7px;
+}
+
+button {
+  width: 300px;
+  margin: 7px;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background-color: lightgreen;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: monospace;
+  transition: all 0.3s; 
+  transition-timing-function: ease-in-out;
+
+}
+button:hover {
+  background-color: rgba(64, 229, 64, 0.623);
+  color: lightyellow;
+  scale: 1.1;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 8px;
+}
+p {
+  margin: 3px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 560px) {
+  #questionCard {
+    width: 300px;
+  }
+  button {
+    width: 200px;
+  }
+  
+}

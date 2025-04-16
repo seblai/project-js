@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather</title>
+  <link rel="stylesheet" href="./style/style.css" />
+  <script src="./script/script.js" defer></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="form-control">
+      <h1>Weather App</h1>
+      <label for="inputCity">Look up for the current weather in:</label>
+      <input type="text" id="inputCity" placeholder="City name..." />
+      <button>Search</button>
+    </div>
+  </div>
+
+  <div id="weatherInfo" style="display: none;">
+    <div>
+          <h2 id="city"></h2><br>
+    <p id="description"></p>
+    <img id="weatherIcon" src="" alt="" />
+    </div>
+
+    
+    <div class="cardsContainer" >
+      <div class="card" id="humidityCard">
+        <img src="./images/humidity.svg" alt="humidity Icon" />
+        <p id="humidity"></p>
+      </div>
+
+      <div class="card">
+        <img src="./images/cloud.png" alt="humidity Icon" />
+        <p id="cloud"></p>
+      </div>
+
+      <div class="card">
+        <img src="./images/scale.png" alt="humidity Icon" />
+        <p id="temp"></p>
+      </div>
+
+      <div class="card">
+        <img src="./images/windy.png" alt="humidity Icon" />
+        <p id="wind"></p>
+      </div>
+    </div>
+  </div>
+  <h1 id=errorMessage></h3>
+</body>
+
+</html>

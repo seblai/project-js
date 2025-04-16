@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(49, 198, 218, 0.726);
+}
+
+#gameContainer {
+  font-family: cursive;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.cell {
+  width: 120px;
+  height: 120px;
+  border: 2px rgb(132, 0, 255) inset;
+  box-shadow: 0 0 0 2px;
+  line-height: 105px;
+  text-align: center;
+  font-size: 95px;
+  cursor: pointer;
+}
+
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 0px;
+  width: 340px;
+  margin: 0 auto;
+  color: rgb(255, 95, 3);
+  text-decoration-color: none;
+}
+
+button {
+  background-color: rgb(218, 49, 49);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: cursive;
+  transition: all 0.1s;
+  margin: 5px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 255, 255);
+  color: rgb(218, 49, 49);
+  box-shadow: 0 0 10px -4px black;
+}
+
+h1 {
+  color: rgb(255, 251, 0);
+  background-color: #6ee010;
+  border: 5px double;
+  width: 300px;
+  margin: 20px auto;
+}
+@media (max-width: 500px) {
+  .cell {
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    line-height: 75px;
+  }
+  #cellContainer {
+  width: 225px;
+}
+}

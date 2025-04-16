@@ -1,0 +1,180 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @media (min-width: 670px) {
+            body {
+                direction: rtl;
+            }
+
+            img {
+                width: 100vw;
+                height: 70vh;
+                position: absolute;
+
+            }
+
+            .heading {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+
+            }
+
+            h1 {
+                color: #D3E10E;
+                margin-bottom: 20px;
+                text-align: right;
+                font: normal normal bold 86px/113px Assistant;
+                letter-spacing: 0px;
+                color: #D3E10E;
+                opacity: 1;
+                text-align: center;
+                margin-top: 15vh;
+            }
+
+
+
+            p {
+                text-align: center;
+                font: normal normal normal 20px/26px Assistant;
+                letter-spacing: 0px;
+                color: #F9F9F9;
+                opacity: 1;
+            }
+
+            .forme {
+                position: relative;
+                display: flex;
+                flex-direction: row;                margin:0 auto;
+                margin-top: 45vh;
+                justify-content: center;
+                text-align: right;
+                font: normal normal bold 16px/21px Assistant;
+                letter-spacing: 0px;
+                color: #011560;
+                opacity: 1;
+                align-items: end;
+                gap: 20px;
+                width: 90vw;
+
+            }
+
+            .form-control {
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+
+            }
+
+            input {
+                height: 50px;
+                border: none;
+                border-bottom: 3px solid #D3E10E;
+                background: #F6F6F6 0% 0% no-repeat padding-box;
+                display: flex;
+
+            }
+        }
+
+        #sub {
+            text-align: right;
+            font: normal normal bold 22px/30px Assistant;
+            letter-spacing: 0.33px;
+            color: #011560;
+            width: 165px;
+            border: none;
+            text-align: center;
+            background-color: #D3E10E;
+        }
+
+        @media(max-width:670px) {
+            body {
+                direction: rtl;
+            }
+
+            img {
+                width: 100%;
+                height: 55vh;
+                position: absolute;
+
+            }
+
+            .heading {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+
+            }
+
+            h1 {
+                color: #D3E10E;
+                margin-bottom: 0px;
+                text-align: right;
+                font: normal normal bold 40px Assistant;
+                letter-spacing: 0px;
+                color: #D3E10E;
+                opacity: 1;
+                text-align: center;
+                margin-top: 5vh;
+            }
+
+
+
+            p {
+                text-align: center;
+                font: normal normal normal 20px Assistant;
+                letter-spacing: 0px;
+                color: #F9F9F9;
+                opacity: 1;
+            }
+
+            .forme {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                
+                justify-content: center;
+                text-align: right;
+                font: normal normal bold 20px/40px Heebo;
+                ;
+                letter-spacing: 0px;
+                color: #011560;
+                opacity: 1;
+                align-items: center;
+                
+                position: absolute;
+                bottom: 40px;
+                right: 10%;
+            }
+
+            .form-control {
+                display: flex;
+                flex-direction: column;
+                margin: 15px;
+                width: 75vw;
+
+            }
+
+            input {
+                height: 40px;
+                border: none;
+                border-bottom: 3px solid #D3E10E;
+                background: #F6F6F6 0% 0% no-repeat padding-box;
+                display: flex;
+            }
+
+            #sub {
+                text-align: right;
+                font: normal normal bold 25px/30px Assistant;
+                letter-spacing: 0.33px;
+                color: #011560;
+                border: none;
+                text-align: center;
+                background-color: #D3E10E;
+                width: 75vw;
+                height: 40px;
+            }
+        }
